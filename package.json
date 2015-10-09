@@ -1,0 +1,21 @@
+{
+  "name": "ryantest",
+  "version": "1.0.0",
+  "description": "BUILD A THEME WITH ZEN ----------------------",
+  "main": "gulpfile.js",
+  "scripts": {
+    "postinstall": "sh npm_post.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.8",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-shell": "^0.4.3",
+    "node-bourbon": "^4.2.3",
+    "node-neat": "^1.7.2"
+  }
+}
